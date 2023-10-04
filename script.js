@@ -154,7 +154,6 @@ sortednovelsPerRate.slice(8,12).forEach(book => {
 var addToCartButtons = document.querySelectorAll(".add-to-cart-btn");
 
 // Add a click event listener to the button
-
 addToCartButtons.forEach(function(button) {
     button.addEventListener("click", function() {
         alert("Item added to cart!");
